@@ -1,0 +1,90 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(55, 54, 74);
+  text-align: center;
+  font-family: Tahoma;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  font-size: 1.1em;
+}
+
+label  {
+  font-size: 1.5em;
+}
+
+#title {
+  margin-bottom: 0.5%;
+  background-color: rgb(16, 14, 14);
+  font-size: 1.75em;
+
+}
+
+#blurb {
+  background-color: rgba(255, 255, 255, 0.386);
+  text-align: center;
+  margin: 1em auto 1em auto;
+  width: 500px;
+  padding: .5em;
+  border-radius: 5px;
+}
+
+#visual-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-bottom: .5em;
+}
+
+#array-visual {
+  margin: 1em;
+}
+
+header {
+  background-color:rgba(249, 78, 78, 0.81);
+  
+  background-size: cover;
+ 
+  color:rgb(249, 249, 248);
+}
+
+button {
+  margin-top: 1em;
+  background-color: rgb(8, 74, 3);
+  font-size: 1.1em;
+  color: rgb(189, 247, 234);
+  padding: .25em .5em .25em .5em;
+  border: none;
+  border-radius: 3px;
+  font-weight: normal;
+}
+
+rect:hover, circle:hover, text.circle:hover, text.rect:hover {
+  cursor: pointer;
+}
+
+.subtext {
+  font-size: .8em;
+  font-weight: 400;
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.svg-content-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
