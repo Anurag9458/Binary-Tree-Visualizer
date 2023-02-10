@@ -47,10 +47,9 @@ function createBinarySearchTree() {
     reset();
     input = inputText.value.trim().split(/\s+|\,+/g).map((num) => parseInt(num));
     input.sort((a, b) => a - b);
+    createBinaryTreeAndArr(input);
     document.querySelector('#visual-title').innerHTML = "Binary Search Tree";
     document.querySelector('#instructions').innerHTML = "The input data sorted and arranged into a Binary Search Tree.";
-    let tree = new Tree();
-    tree.createBinarySearchTree(input)
   }
 }
 
